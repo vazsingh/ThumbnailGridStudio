@@ -175,9 +175,9 @@ public sealed partial class MainWindow : Window
         {
             XamlRoot = root.XamlRoot,
             Title = "Import",
-            Content = "Was möchtest du hinzufügen?",
-            PrimaryButtonText = "Dateien auswählen",
-            SecondaryButtonText = "Ordner auswählen",
+            Content = "Select content",
+            PrimaryButtonText = "Select folder",
+            SecondaryButtonText = "Cancel",
             CloseButtonText = "Abbrechen"
         };
 
